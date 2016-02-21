@@ -4,7 +4,7 @@
 
 var fs = require('fs');
 
-var babelrc = fs.readFileSync('./../.babelrc');
+var babelrc = fs.readFileSync(__dirname + '/../.babelrc');
 var config;
 
 try {
